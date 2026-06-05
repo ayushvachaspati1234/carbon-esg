@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Compliance-grade carbon and ESG telemetry — meter-level data, supply-chain ingestion, and audit trails that survive regulator scrutiny.">
+  <title>CarbonClose — Close the Books on Carbon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js" defer></script>
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <svg class="logo-mark" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true">
+          <rect width="32" height="32" rx="7" fill="#3f5e3a"/>
+          <path d="M21.5 9.5A8 8 0 1 0 23 16" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
+          <path d="m18 15 3 3 5-6" fill="none" stroke="#d9e8b8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span data-company>CarbonClose</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#features">Platform</a>
+        <a href="#how">How it works</a>
+        <a href="#audit">Audit-ready</a>
+      </nav>
+      <a href="#cta" class="btn btn-primary btn-sm">Book an assessment</a>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Compliance-grade carbon &amp; ESG telemetry</p>
+        <h1>Your emissions report is due. Estimates won't survive the audit.</h1>
+        <p class="lead">CSRD and its cousins demand auditable emissions data — not spend-based guesses. <span data-company>CarbonClose</span> ingests meter-level and supply-chain telemetry with an evidence trail behind every number, so you close the books on carbon the way your ERP closes financials.</p>
+        <div class="hero-actions">
+          <a href="#cta" class="btn btn-primary">Book a readiness assessment</a>
+          <a href="#how" class="btn btn-ghost">See the evidence model</a>
+        </div>
+        <p class="hero-note">CSRD · ESRS E1 · GHG Protocol · CDP &amp; SEC-climate exports</p>
+      </div>
+
+      <!-- Hero visual: carbon ledger with auditor stamp -->
+      <div class="hero-visual" aria-hidden="true">
+        <div class="ledger">
+          <div class="ledger-head">
+            <span>FY2025 · Scope 1 &amp; 2 close</span>
+            <span class="ledger-period">Period: locked</span>
+          </div>
+          <table class="ledger-table">
+            <thead>
+              <tr><th>Source</th><th>tCO₂e</th><th>Evidence</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Natural gas — Plant 1</td>
+                <td>4,210.8</td>
+                <td><span class="ev ok">meter ✓</span></td>
+              </tr>
+              <tr>
+                <td>Electricity — 14 sites</td>
+                <td>11,402.3</td>
+                <td><span class="ev ok">utility API ✓</span></td>
+              </tr>
+              <tr>
+                <td>Fleet diesel</td>
+                <td>1,877.5</td>
+                <td><span class="ev ok">fuel cards ✓</span></td>
+              </tr>
+              <tr>
+                <td>Refrigerant top-ups</td>
+                <td>312.0</td>
+                <td><span class="ev warn">2 invoices pending</span></td>
+              </tr>
+              <tr class="ledger-total">
+                <td>Total (verified 98.3%)</td>
+                <td>17,802.6</td>
+                <td><span class="ev ok">trail complete</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="ledger-foot">
+            <div class="foot-note">Every line traceable to source documents · hash-chained, immutable after lock</div>
+            <div class="stamp">
+              <span class="stamp-ring">ASSURANCE<br>READY</span>
+              <span class="stamp-sig">Reviewed · Beckmann &amp; Lowe LLP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROBLEM ============ -->
+  <section class="section">
+    <div class="container">
+      <h2>Sustainability reporting just became financial reporting.</h2>
+      <p class="section-lead">The spreadsheet-and-estimates era ends where assurance requirements begin.</p>
+      <div class="cards cards-3">
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M9 14l2 2 4-5" opacity="0"/><path d="M9 13h6M9 17h6M9 9h2"/></svg>
+          </div>
+          <h3>Estimates everywhere</h3>
+          <p>Spend-based factors and industry averages were fine for a voluntary PDF. Under CSRD assurance, &ldquo;we multiplied invoices by a factor&rdquo; is a finding.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h7l2 3h9v10H3z"/><path d="M12 12v4M10 14h4" opacity="0.7"/></svg>
+          </div>
+          <h3>Data scattered across 40 systems</h3>
+          <p>Utility portals, fuel cards, BMS exports, supplier emails. Each reporting season is a three-month scavenger hunt that starts from zero.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v5M12 16.5v.5"/><path d="M10.3 3.8 2.6 17a2 2 0 0 0 1.7 3h15.4a2 2 0 0 0 1.7-3L13.7 3.8a2 2 0 0 0-3.4 0z"/></svg>
+          </div>
+          <h3>Auditors ask &ldquo;show me&rdquo;</h3>
+          <p>Limited assurance today, reasonable assurance tomorrow. Without document-level lineage, every number becomes a meeting — and a risk disclosure.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURES ============ -->
+  <section class="section section-tint" id="features">
+    <div class="container">
+      <h2>An ERP-grade close process, for emissions.</h2>
+      <p class="section-lead">Telemetry in, evidence attached, period locked. The way finance has done it for fifty years.</p>
+      <div class="cards cards-4">
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="7"/><path d="M12 13l3-3M12 3v2M4.5 5.5 6 7M19.5 5.5 18 7" opacity="0.8"/></svg>
+          </div>
+          <h3>Meter-level telemetry</h3>
+          <p>Direct feeds from utility APIs, submeters, BMS, and fuel-card networks. Activity data arrives continuously — not as a year-end archaeology project.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h6M4 12h8M4 17h5" opacity="0.8"/><circle cx="17" cy="7" r="2.5"/><circle cx="17" cy="17" r="2.5"/><path d="M17 9.5v5"/></svg>
+          </div>
+          <h3>Supply-chain ingestion</h3>
+          <p>Suppliers submit through a portal that validates as they type — or we extract from the PDFs they send anyway. Scope 3 with lineage, not vibes.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 11V7a4 4 0 0 1 8 0v4"/><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M12 14.5V17"/></svg>
+          </div>
+          <h3>Hash-chained audit trail</h3>
+          <p>Every figure links to its source document, factor version, and calculation. Lock the period and the chain is immutable — regulators can replay it.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M9 13h6M9 17h4"/></svg>
+          </div>
+          <h3>One dataset, every framework</h3>
+          <p>ESRS E1, GHG Protocol, CDP, SEC climate — generated from the same closed ledger, so the numbers never disagree between reports.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="section" id="how">
+    <div class="container">
+      <h2>From scavenger hunt to monthly close.</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Connect sources</h3>
+          <p>Utility accounts, fuel cards, meters, ERP, and supplier lists. Most organizations see 80% of Scope 1 &amp; 2 flowing automatically within a month.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>Review exceptions only</h3>
+          <p>The platform flags gaps, anomalies, and missing evidence. Your team works a short exception queue instead of building the dataset by hand.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>Lock the period</h3>
+          <p>Close each month like finance does. At year-end, assurance starts from a locked, evidence-complete ledger — not a folder of spreadsheets.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ AUDIT READY ============ -->
+  <section class="section section-tint" id="audit">
+    <div class="container">
+      <h2>Measured by what survives scrutiny.</h2>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-num">98%+</div>
+          <p>of reported tCO₂e backed by primary evidence, typical customer</p>
+        </div>
+        <div class="stat">
+          <div class="stat-num">−65%</div>
+          <p>reduction in audit-preparation hours, year one</p>
+        </div>
+        <div class="stat">
+          <div class="stat-num">12×</div>
+          <p>faster close: annual scramble → monthly routine</p>
+        </div>
+      </div>
+
+      <div class="quote-card">
+        <blockquote>
+          <p>&ldquo;Our first CSRD assurance engagement was heading for disaster — 40 spreadsheets and a consultant's black-box model. With <span data-company>CarbonClose</span>, the auditors clicked from the total down to individual meter readings and invoices. The partner said it was the first sustainability dataset she'd reviewed that behaved like accounting data.&rdquo;</p>
+          <footer>
+            <div class="avatar">MS</div>
+            <div>
+              <strong>Margit Severin</strong>
+              <span>Group Controller, Althaus Manufacturing SE</span>
+            </div>
+          </footer>
+        </blockquote>
+      </div>
+
+      <div class="trust-row">
+        <span class="trust-badge">ESRS E1 &amp; GHG Protocol aligned</span>
+        <span class="trust-badge">Factor libraries versioned</span>
+        <span class="trust-badge">SOC 2 Type II</span>
+        <span class="trust-badge">EU data residency</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="section-cta" id="cta">
+    <div class="container cta-inner">
+      <h2>Find out what your auditor will find — first.</h2>
+      <p>The readiness assessment maps your current data against assurance requirements and shows exactly where estimates won't hold.</p>
+      <form class="cta-form" id="signup-form">
+        <input type="email" placeholder="you@yourcompany.com" required aria-label="Email address">
+        <button type="submit" class="btn btn-light">Book the assessment</button>
+      </form>
+      <p class="cta-confirm" id="signup-confirm" hidden>Thanks — our compliance team will reach out within two business days.</p>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <svg class="logo-mark" width="28" height="28" viewBox="0 0 32 32" aria-hidden="true">
+            <rect width="32" height="32" rx="7" fill="#d9e8b8"/>
+            <path d="M21.5 9.5A8 8 0 1 0 23 16" fill="none" stroke="#3f5e3a" stroke-width="2.4" stroke-linecap="round"/>
+            <path d="m18 15 3 3 5-6" fill="none" stroke="#3f5e3a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span data-company>CarbonClose</span>
+        </a>
+        <p>Closing the books on carbon, with evidence.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Platform</h4>
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#audit">Audit-ready</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:hello@carbonclose.example.com" data-email>hello@carbonclose.example.com</a>
+        <span data-domain>carbonclose.example.com</span>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 <span data-company>CarbonClose</span>. All rights reserved. Platform supports assurance; engagement outcomes rest with your auditor.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("signup-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      this.hidden = true;
+      document.getElementById("signup-confirm").hidden = false;
+    });
+  </script>
+</body>
+</html>
