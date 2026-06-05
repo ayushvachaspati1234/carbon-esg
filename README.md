@@ -1,4 +1,4 @@
-# CarbonClose — Landing Page
+# Vasken — Landing Page
 
 Static landing page for a **compliance-grade carbon & ESG telemetry** startup (meter-level + supply-chain emissions data with regulator-proof audit trails — "closing the books" for carbon under CSRD). No build step, no dependencies — plain HTML/CSS/JS.
 
@@ -8,9 +8,9 @@ Edit the three values at the top of **`config.js`**:
 
 ```js
 const BRAND = {
-  companyName: "CarbonClose",
-  domain: "carbonclose.example.com",
-  contactEmail: "hello@carbonclose.example.com"
+  companyName: "Vasken",
+  domain: "vasken.xyz",
+  contactEmail: "hello@vasken.xyz"
 };
 ```
 
